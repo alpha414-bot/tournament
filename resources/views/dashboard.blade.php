@@ -14,7 +14,7 @@
                         <div class="detail-parameter">Tournament Name</div>
                         <div class="details-value">{{$tour->tournament_name}}</div>
                       <div class="detail-parameter">Presenter:</div>@php $url = json_decode($tour->data)->tournaments->$tournament_id->full @endphp
-                      <div class="details-value"><a href="@if(isset($url->presenter->url)){{$url->presenter->url}}" target="_blank" @else #" @endif>{{json_decode($tour->data)->tournaments->$tournament_id->full->presenter->name}}</a></div>
+                      <div class="details-value"><a href="@if(isset($url->presenter->url)){{$url->presenter->url}}" target="_blank" @else #" @endif>{{isset(json_decode($tour->data)->tournaments->$tournament_id->full)?json_decode($tour->data)->tournaments->$tournament_id->full->presenter->name:'___'}}</a></div>
                       @if(isset(json_decode($tour->data)->tournaments->$tournament_id->full->location))
                         <div class="detail-parameter">Location:</div>
                         <div class="details-value">{{json_decode($tour->data)->tournaments->$tournament_id->full->location->name}}, {{json_decode($tour->data)->tournaments->$tournament_id->full->location->streetnum}}, {{json_decode($tour->data)->tournaments->$tournament_id->full->location->zip}} {{json_decode($tour->data)->tournaments->$tournament_id->full->location->city}}</div>
@@ -32,7 +32,7 @@
                           @endif                          
                       </div>
                       <div class="detail-parameter">Date and time:</div>
-                      <div class="details-value">{{\Carbon\Carbon::parse(json_decode($tour->data)->tournaments->$tournament_id->full->startDateAndTime)->toDayDateTimeString()}} - {{\Carbon\Carbon::parse(json_decode($tour->data)->tournaments->$tournament_id->full->endDateAndTime)->format('h:i A');}}</div>
+                      <div class="details-value">{{isset(json_decode($tour->data)->tournaments->$tournament_id->full)?Carbon::parse(json_decode($tour->data)->tournaments->$tournament_id->full->startDateAndTime)->toDayDateTimeString():'_____'}} - {{isset(json_decode($tour->data)->tournaments->$tournament_id->full)?Carbon::parse(json_decode($tour->data)->tournaments->$tournament_id->full->endDateAndTime)->format('h:i A'):'__:__'}}</div>
                     </div>
                   </div>
                   <a href="{{route('iframe.view', ['id'=>$tournament_id]) }}" class="main-linker" target="_blank">Click Here To View!</a>
