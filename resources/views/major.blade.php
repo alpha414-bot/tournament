@@ -19,7 +19,7 @@
               <div class="grid rectifier heading">
                 <div class="table-primary">{{$digit+1}}</div>
                 <div class="table-primary">{{$tour->tournament_name}}</div> @php $tournament_id = $tour->tournament_id @endphp
-                <div class="table-primary">{{json_decode($tour->data)->tournaments->$tournament_id->full->presenter->name}}</div>
+                <div class="table-primary">{{isset(json_decode($tour->data)->tournaments->$tournament_id->full)?json_decode($tour->data)->tournaments->$tournament_id->full->presenter->name:'___'}}</div>
                 <div class="table-primary" style="flex-direction:row;">
                     <a href="{{route('iframe.view', ['id'=>$tour->tournament_id])}}" class="table-link" style="display:inline-block;" target="_blank">View</a>&nbsp;
                   <a href="{{Request::root()}}/link/{{$tour->id}}/delete/{{$tour->tournament_id}}" class="table-link">Delete</a>
