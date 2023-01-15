@@ -1,0 +1,300 @@
+AWSTATS DATA FILE 7.7 (build 20161204)
+# If you remove this file, all statistics for date 202212 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.tournament.uifaadmin.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2007                
+POS_TIME 2686                
+POS_VISITOR 6674                
+POS_DAY 7466                
+POS_DOMAIN 3221                
+POS_LOGIN 3553                
+POS_ROBOT 3708                
+POS_WORMS 3909                
+POS_EMAILSENDER 4040                
+POS_EMAILRECEIVER 4183                
+POS_SESSION 7783                
+POS_SIDER 7942                
+POS_FILETYPES 4318                
+POS_DOWNLOADS 4466                
+POS_OS 4514                
+POS_BROWSER 4672                
+POS_SCREENSIZE 4952                
+POS_UNKNOWNREFERER 5026                
+POS_UNKNOWNREFERERBROWSER 5405                
+POS_ORIGIN 5592                
+POS_SEREFERRALS 5725                
+POS_PAGEREFS 5869                
+POS_SEARCHWORDS 6017                
+POS_KEYWORDS 6169                
+POS_MISC 2350                
+POS_ERRORS 6228                
+POS_CLUSTER 3409                
+POS_SIDER_404 6317                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20230105052610 86 23433 14544538613255
+FirstTime 20221203055405
+LastTime 20221227155142
+LastUpdate 20230106044124 86 83 0 2 0
+TotalVisits 25                  
+TotalUnique 19                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 19                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 8 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 0 0 0 0 0 0
+2 0 0 0 0 0 0
+3 0 0 0 0 0 0
+4 0 0 0 0 0 0
+5 3 3 1559 0 1 0
+6 1 1 567 1 2 2149
+7 9 17 140636 2 3 3801
+8 0 0 0 0 0 0
+9 5 5 2480 0 1 0
+10 1 1 2149 0 0 0
+11 3 3 4865 0 0 0
+12 1 1 2137 0 1 0
+13 1 1 2149 0 0 0
+14 0 0 0 0 0 0
+15 3 3 1630 0 3 0
+16 15 15 7511 9 11 16912
+17 10 10 8006 3 3 5619
+18 1 1 496 1 1 1873
+19 0 0 0 0 0 0
+20 0 0 0 0 0 0
+21 0 0 0 0 0 0
+22 0 0 0 0 0 0
+23 0 0 0 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 10
+pk 33 37 85211
+fr 8 8 10804
+us 4 4 3850
+be 2 2 1134
+it 1 5 67754
+ru 1 1 2149
+cz 1 1 0
+de 1 1 2149
+in 1 1 567
+sg 1 1 567
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 2
+unknown 2 110 20221225074757 2
+no_user_agent 1 2149 20221228065124 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 5
+css 6 28140 0 0
+html 45 37582 0 0
+js 2 104298 0 0
+Unknown 1 693 0 0
+json 7 3472 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 7
+linuxandroid 7 3
+winlong 1 1
+ios_iphone 1 1
+macosx10 1 1
+win10 37 33
+Unknown 10 10
+linux 4 4
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 12
+mozilla 4 4
+chrome102.0.5005.125 5 1
+chrome39.0.2171.95 1 1
+chrome84.0.4147.105 2 2
+firefox58.0 3 3
+chrome106.0.0.0 1 1
+chrome31.0.1650.16 1 1
+firefox104.0 1 1
+chrome107.0.0.0 1 1
+safari15.1 1 1
+Unknown 6 6
+chrome108.0.0.0 35 31
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20221218114426
+Go-http-client/2.0 20221218173323
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20221225151513
+WhatsApp/2.22.24.78_A 20221213073549
+Go-http-client/1.1 20221218170454
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+Go-http-client/2.0 20221218173323
+WhatsApp/2.22.24.78_A 20221213073549
+Go-http-client/1.1 20221218170454
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 47 47
+From1 0 0
+From2 0 0
+From3 0 0
+From4 6 14
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 15 28095
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 1
+/cart.json 15 https://tournament.uifaadmin.com/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 19
+123.253.95.167 31 35 84219 20221223161842
+51.75.169.50 4 4 2220 20221218173323
+167.248.133.47 2 2 1134 20221225151513
+35.213.176.218 1 1 567 20221215165817
+5.91.240.128 1 5 67754 20221213073659
+111.119.183.16 1 1 496 20221206092502
+195.211.77.140 1 1 2149 20221218170432
+51.255.62.10 1 1 2149 20221219115617
+51.81.167.146 1 1 2149 20221218170325
+35.207.207.242 1 1 567 20221225074757
+65.108.243.108 1 1 2149 20221204105950
+100.27.41.131 1 1 567 20221219065607
+87.236.176.247 1 1 567 20221218114426
+51.158.37.210 1 1 2137 20221203125407
+87.236.176.13 1 1 567 20221203055405
+51.255.62.2 1 1 2149 20221219115643
+51.254.49.104 1 1 2149 20221219131248
+195.74.76.198 1 1 0 20221218170454
+182.182.54.26 1 1 496 20221227155142
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 13
+20221203 2 2 2704 2
+20221204 1 1 2149 1
+20221206 1 1 496 1
+20221212 17 17 8432 2
+20221213 10 18 141061 3
+20221214 2 2 992 1
+20221215 1 1 567 1
+20221216 2 2 992 1
+20221218 8 8 7085 5
+20221219 4 4 7014 4
+20221223 1 1 496 1
+20221225 3 3 1701 2
+20221227 1 1 496 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+15mn-30mn 3
+0s-30s 22
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 3
+/ 45 37582 25 21
+/cart.json 7 3472 0 4
+/app/view/1638776940 1 693 0 0
+END_SIDER

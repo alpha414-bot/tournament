@@ -1,0 +1,672 @@
+[29-Oct-2022 09:46:53 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[29-Oct-2022 09:46:54 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[29-Oct-2022 09:46:56 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[01-Nov-2022 21:55:56 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[02-Nov-2022 11:14:37 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[02-Nov-2022 11:14:39 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[07-Nov-2022 09:05:53 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[18-Nov-2022 14:47:44 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[18-Nov-2022 21:50:52 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[18-Nov-2022 21:50:52 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[18-Nov-2022 21:50:52 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[18-Nov-2022 21:50:54 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[18-Nov-2022 21:50:54 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[18-Nov-2022 21:50:55 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[18-Nov-2022 21:50:57 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Nov-2022 07:38:57 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[20-Nov-2022 07:38:59 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[26-Nov-2022 08:46:50 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[26-Nov-2022 08:46:51 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[30-Nov-2022 15:04:08 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[30-Nov-2022 15:04:10 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[03-Dec-2022 05:54:05 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[03-Dec-2022 12:54:07 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[04-Dec-2022 10:59:50 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[06-Dec-2022 09:25:02 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[12-Dec-2022 16:48:39 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[12-Dec-2022 16:48:40 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[12-Dec-2022 16:48:43 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Dec-2022 07:51:00 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Dec-2022 07:51:01 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Dec-2022 07:52:28 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Dec-2022 09:46:07 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[14-Dec-2022 09:31:32 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[14-Dec-2022 09:31:33 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[15-Dec-2022 16:58:17 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[16-Dec-2022 05:25:32 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[16-Dec-2022 05:25:34 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[18-Dec-2022 11:44:26 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[18-Dec-2022 17:03:25 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[18-Dec-2022 17:03:33 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[18-Dec-2022 17:03:33 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[18-Dec-2022 17:04:54 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[19-Dec-2022 06:56:07 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[19-Dec-2022 11:56:17 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[19-Dec-2022 11:56:43 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[23-Dec-2022 16:18:42 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[25-Dec-2022 07:47:57 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[25-Dec-2022 15:15:13 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[25-Dec-2022 15:15:13 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[27-Dec-2022 15:51:42 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[28-Dec-2022 06:51:24 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[05-Jan-2023 05:26:10 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[11-Jan-2023 15:19:30 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[11-Jan-2023 15:19:31 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[12-Jan-2023 15:15:44 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[12-Jan-2023 15:23:39 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(356): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(427): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(ValueError))
+#6 /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(115): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(ValueError))
+#7 /home/customer/www/tournament.uifaadmin.com/public_html/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#8 {main}
+  thrown in /home/customer/www/tournament.uifaadmin.com/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
