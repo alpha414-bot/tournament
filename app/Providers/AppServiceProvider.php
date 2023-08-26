@@ -19,8 +19,8 @@ class AppServiceProvider extends ServiceProvider
     public function register()
     {
         //
-        $this->app->bind('path.public', function(){
-             return base_path().'/public_html';
+        $this->app->bind('path.public', function () {
+            return base_path() . '/public_html';
         });
     }
 
@@ -32,14 +32,15 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         //
-        $name = Site::where('variable', 'sitename')->first();
-        if($name == null){
-            $sitename = "Tournament";
-        }else{
-            $sitename = $name->value;
+        $name = "Tournament";
+        if (Schema::hasTable('migrations')) {
+            // migration has been ran
+            $name = Site::where('variable', 'sitename')->first();
+            $name = !$name->value ? 'Tournament' : $name->value;
         }
-	$avatar = Avatar::create($sitename.' ')->setShape('square')->setBackground('#000000')->setDimension(100)->toBase64();
-        View::share(['favicon'=>$avatar, 'sitename'=>ucwords($sitename)]);
+
+        $avatar = Avatar::create($name . ' ')->setShape('square')->setBackground('#000000')->setDimension(100)->toBase64();
+        View::share(['favicon' => $avatar, 'sitename' => ucwords($name)]);
         Schema::defaultStringLength(191);
     }
 }
