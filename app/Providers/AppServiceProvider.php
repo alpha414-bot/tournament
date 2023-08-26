@@ -36,7 +36,7 @@ class AppServiceProvider extends ServiceProvider
         if (Schema::hasTable('migrations')) {
             // migration has been ran
             $name = Site::where('variable', 'sitename')->first();
-            $name = !$name->value ? 'Tournament' : $name->value;
+            $name = $name->value;
         }
 
         $avatar = Avatar::create($name . ' ')->setShape('square')->setBackground('#000000')->setDimension(100)->toBase64();
