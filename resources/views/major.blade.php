@@ -4,6 +4,16 @@
 @endif
   <div data-w-id="ad940300-02ba-df9c-3b1b-d1d5697e4ab9" style="opacity:1" class="wrapper-dominator">
     @include('layouts.navigationB')
+    @if($errors->any())
+    <div style="margin-top: 2em; margin-left: 3em;">
+      <p style="color:red;">There was a problem with adding new tournament. Error(XC4747)</p>
+      <pre>
+        @php
+          print_r($errors->all());
+        @endphp
+      </pre>
+    </div>
+    @endif
     <div class="chain-wrapper w-clearfix">
       <a data-w-id="bd4212b6-244f-dd4d-25da-7850692cad1f" href="#" class="cta add w-button">Add New Tournament</a>
       <div class="responsive-table">

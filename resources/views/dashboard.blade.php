@@ -2,6 +2,10 @@
     <x-balancing/>
 {{-- @include('layouts.navigation')--}}
   <div class="block">
+        <div style="margin-top: 68px; margin-bottom: 68px;">
+          <a class="cta form w-button" href="{{route("login")}}">Login</a>
+        </div>
+        
         @if(count($tournaments)>0)
             @foreach($tournaments as $tour)
                 <div class="grid">

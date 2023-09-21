@@ -30,19 +30,58 @@ class MainController extends Controller
 
     public function store(Request $request){
         if(parse_url($request->link, PHP_URL_HOST) !== "tournej.it"){
-            return back()->withErrors(['error' => "This url is invalid and can't be parsed by the system."]);
+         return back()->withErrors(['error' => "This url is invalid and can't be parsed by the system."]);
         }
         $data = $this->onceLoadTask($request->link);
+        dd($data);
         $tournament_id = json_decode($this->onceLoadTask($request->link))->openTournament;
         $tournament_name = json_decode($this->onceLoadTask($request->link))->tournaments->$tournament_id->headers->name;
         Link::create([
-            'url'=>$request->link,
-            'tournament_id'=> $tournament_id,
-            'tournament_name'=>$tournament_name,
-            'data'=>$data
+         'url'=>$request->link,
+         'tournament_id'=> $tournament_id,
+         'tournament_name'=>$tournament_name,
+         'data'=>$data
         ]);
         return back()->with('done', 'done');
     }
+
+    public function storeB(Request $request){
+        if(parse_url($request->link, PHP_URL_HOST) !== "tournej.it"){
+            return back()->withErrors(['error' => "This URL is invalid and can't be parsed by the system."]);
+        }
+        
+        $jsonResponse = $this->onceLoadTask($request->link);
+        
+        if ($jsonResponse === null) {
+            return back()->withErrors(['error' => "Failed to retrieve data from the provided URL."]);
+        }
+        
+        $decodedData = json_decode($jsonResponse);
+        dd($decodedData);
+
+        if ($decodedData === null || !property_exists($decodedData, 'openTournament')) {
+            return back()->withErrors(['error' => "The data retrieved from the URL does not contain 'openTournament' property."]);
+        }
+        
+        $tournament_id = $decodedData->openTournament;
+        
+        // Check if the 'tournaments' property exists and contains the tournament_id
+        if (property_exists($decodedData->tournaments, $tournament_id)) {
+            $tournament_name = $decodedData->tournaments->$tournament_id->headers->name;
+            
+            Link::create([
+                'url' => $request->link,
+                'tournament_id' => $tournament_id,
+                'tournament_name' => $tournament_name,
+                'data' => $jsonResponse, // Store the JSON response for reference
+            ]);
+
+            return back()->with('done', 'done');
+        } else {
+            return back()->withErrors(['error' => "Invalid tournament ID in the retrieved data."]);
+        }
+    }
+
     public function setting(){
         $token = str_random(20); 
         $reset_token = strtolower(str_random(64));
@@ -124,7 +163,7 @@ class MainController extends Controller
         return $filePath.'scrap.html';
     }
 
-    private function parseItOut($string){
+    private function parseItOutBB($stringB){
         $major = str_replace('window.preloadedState = ', '', $string); // Remove 'window.preloadedState = '
         //$major = preg_replace('/window.PHP_HTTPSROOT = "\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]";/i', '', $major); 
         $major = preg_replace('/window.PHP_HTTPSROOT = ("([^"]|"")*");/i','',$major); // Remove window.PHP_HTTPSROOT
@@ -133,6 +172,24 @@ class MainController extends Controller
         $major = preg_replace('/window.PHP_LANG = ("([^"]|"")*");/i','',$major); // Remove window.LANG
         $major = str_replace('}}};','}}}', $major);
         return $major;
+    }
+
+    private function parseItOut($html) {
+        $pattern = '/window\.preloadedState = (\{.*?\});/s';
+        preg_match($pattern, $html, $matches);
+
+        if (isset($matches[1])) {
+            // Parse the JSON data into a PHP object
+            $parsedData = json_decode($matches[1]);
+
+            if (json_last_error() === JSON_ERROR_NONE) {
+                return $parsedData;
+            } else {
+                return null; // JSON decoding error
+            }
+        } else {
+            return null; // Pattern not found
+        }
     }
 
 }
